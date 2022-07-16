@@ -1,0 +1,189 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.ant-select-selector{
+  border-radius: 10px !important;
+  background-color: #eeeeee !important;
+  
+}
+.ant-select-selection-placeholder{
+  color: #888888 !important;
+}
+.acti{
+  border-bottom: 1px solid;
+}
+.acto{
+  border-bottom: 1px solid;
+}
+.tasvir{
+  
+   width: 100%;
+   height: 100%;
+   border-radius: 12px;
+}
+.image{
+  width: 100px;
+  height: 100px;
+}
+.DatePicker__input{
+  outline: none;
+  
+}
+.DatePicker__input.-rtl{
+  border:none;
+  border-left: 1px solid;
+  width: 130px;
+  
+}
+.DatePicker{
+  width: 50%;
+}
+.bilit-input{
+  outline:none;
+    border:none;
+    background-color:#eeeeee;
+    padding:3px 8px 3px 0px;
+    width:50%;
+     /* marginTop:'4px' */
+    
+    border-radius:8px 0px 0px 8px;
+}
+.count-mosafer{
+  width: 100%;
+  height: 100%;
+  background-color: #eeeeee;
+  border-radius: 9px;
+  padding:6px 10px;
+  outline: none;
+  border: none;
+}
+.DatePicker__input .kelas{
+  border: none !important;
+}
+.task{
+  height: 250px;
+  width:100%;
+  margin:0 auto;
+}
+/* .tasvir1{
+  width: 210px;
+  height: 180px;
+  background-size: cover;
+  border-radius: 12px; 
+}
+.tasvir2{
+  
+  width: 210px;
+  height: 180px;
+  background-size: cover;
+  border-radius: 12px; 
+} */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.masi{
+  margin-right: 20px;
+}
+/* .video{
+  background-image: url('./images/video.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.modal-body{
+  padding: 0px 0px 15px 0px !important;
+}
+@media only screen and (max-width: 990px){
+ .margin-video{
+   margin-top: 5px !important;
+ }
+ .bilit-into-text{
+   margin: 8px 20px 10px 10px !important;
+ }
+ .imag-flex{
+  flex-direction: column !important;
+ }
+ .mt{
+   margin-top: -35px !important;
+ }
+ .pxy{
+   padding: 0px !important;
+ }
+ .mtb{
+  margin-top: -12px !important;
+}
+}
+@media only screen and (max-width: 760px){
+  .images-flex{
+    flex-direction: column !important;
+  }
+  .mr{
+    margin-right: 10px !important;
+  }
+  .padr{
+    padding-right: 30px !important;
+  }
+  .psx{
+    padding-right: 30px !important;
+    padding-top: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 580px){
+  .appmobile{
+    margin-right: 10px !important;
+  }
+  .margint{
+    margin-top: -20px !important;
+  }
+  .image-flex{
+    flex-direction: column;
+  }
+  .mobilevideo{
+    
+    height: 300px !important;
+  }
+  .video-container{
+    width: 90% !important;
+  }
+  .mtbs{
+    margin-top: -20px !important;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .maste{
+    height: 200px !important;
+  }
+}

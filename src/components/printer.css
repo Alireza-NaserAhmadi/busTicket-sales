@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Anton;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../fonts/Anton.ttf');
+    src: url('../../fonts/Anton.ttf') format('truetype'), 
+    /* url('fonts/Vazir.woff2') format('woff2'), 
+    url('fonts/Vazir.woff') format('woff'), 
+    url('fonts/Vazir.ttf') format('truetype'); */
+   }
+
+
+.print{
+    font-style: normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px;
+}
